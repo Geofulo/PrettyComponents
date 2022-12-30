@@ -57,7 +57,7 @@ public struct PrettyComponent: View {
 }
 
 extension PrettyComponent {
-    func addBackgroundColor(_ color: Color) -> Self {
+    public func addBackgroundColor(_ color: Color) -> Self {
         var copySelf = self
         copySelf.color = color
         return copySelf
