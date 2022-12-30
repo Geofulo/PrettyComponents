@@ -11,7 +11,7 @@ public struct PrettyComponents {
     }
 }
 
-struct PrettyComponent: View {
+public struct PrettyComponent: View {
     @Namespace private var animation
     @State private var isAnimating = false
     
@@ -34,7 +34,7 @@ struct PrettyComponent: View {
         isAnimating ? 50 : 0
     }
     
-    var body: some View {
+    public var body: some View {
         HStack {
             Group {
                 if isAnimating {
