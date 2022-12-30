@@ -15,7 +15,7 @@ public struct PrettyComponent: View {
     public var text: String = ""
     public var color: Color = .clear
     
-    init(text: String) {
+    public init(text: String) {
         self.text = text
     }
     
